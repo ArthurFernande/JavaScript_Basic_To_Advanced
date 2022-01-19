@@ -13,3 +13,6 @@ const nome = {nome:"Arthur", sobrenome:"Fernandes"};
 nome.nome ="Pedro"
 console.log(nome);
 
+
+
+
