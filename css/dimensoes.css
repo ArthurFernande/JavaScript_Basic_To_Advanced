@@ -1,0 +1,22 @@
+.texto {
+    width: 200px;
+    height: 900px;
+    overflow: auto; /* se nao couber na area poder ter scroll , barra de rolagem*/
+    background-color: #CCC;
+    padding: 20px;
+    border: 2px solid red
+}
+.scrollbutton{
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #FF0000;
+    position: fixed;
+    right: 20px;
+    bottom:20px ;
+    z-index:999; /*para ele ficar acima de todo conteudo*/
+}
+.invisivel{
+    display: none;
+}
