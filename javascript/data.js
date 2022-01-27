@@ -51,8 +51,8 @@ function showTime() {
     let text = h+': '+m+': '+s;
     document.querySelector('.demo').innerHTML = text;
 }
- */
 
+//uso do settimeout
 function comecar(){
 
     setTimeout( function(){
@@ -61,5 +61,16 @@ function comecar(){
     
     }, 2000);
 }
+*/
 
 
+
+//template String
+
+let nome ='Arthur'
+let idade = 90
+
+//let frase = 'meu nome é ' +nome+ ' e tenho ' +idade+ ' anos e ano que vem faço ' +(idade+1) + ' anos';
+let frase = `meu nome é ${nome} e eu tenho ${idade} anos e ano que vem faço  ${idade+1} anos`;
+
+console.log(frase)
